@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+print_r($_POST);
+?>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,4 +11,4 @@
 <body>
     <h1>Payment Successful!</h1>
 </body>
-</html>
+</html> -->
