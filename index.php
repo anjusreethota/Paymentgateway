@@ -81,9 +81,10 @@ if ($err) {
 if(isset($res->success) && $res->success=='1'){
 $paymentCode=$res->code;
 $paymentMsg=$res->message;
-$payUrl=$res->data->instrumentResponse->redirectInfo->url;
+echo $payUrl=$res->data->instrumentResponse->redirectInfo->url;
+    echo "<a href='".$payUrl."'>Pay Now</a>;
  
-header('Location:'.$payUrl) ;
+//header('Location:'.$payUrl) ;
 }
 }
           
